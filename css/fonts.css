@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Myriad Set Pro';
+	font-style: normal;
+	font-weight: 100;
+	src: url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_ultralight.eot');
+	src: url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_ultralight.eot') format('embedded-opentype'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_ultralight.woff2') format('woff2'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_ultralight.woff') format('woff'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_ultralight.ttf') format('truetype'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_ultralight.svg#MyriadSetProUltralight') format('svg');
+}
+
+@font-face {
+	font-family: 'Myriad Set Pro';
+	font-style: normal;
+	font-weight: 200;
+	src: url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_thin.eot');
+	src: url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_thin.eot') format('embedded-opentype'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_thin.woff2') format('woff2'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_thin.woff') format('woff'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_thin.ttf') format('truetype'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_thin.svg#MyriadSetProThin') format('svg');
+}
+
+@font-face {
+	font-family: "Myriad Set Pro";
+	src: url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro-semibold.eot');
+	src: local('鈽�'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro-semibold.woff') format('woff'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro-semibold.ttf') format('truetype'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro-semibold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Myriad Set Pro";
+	src: url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_text.eot');
+	src: local('鈽�'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_text.woff') format('woff'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_text.ttf') format('truetype'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_text.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Myriad Set Pro";
+	src: url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_medium.eot');
+	src: local('鈽�'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_medium.woff') format('woff'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_medium.ttf') format('truetype'), url('http://www.notiontechnologies.com/fonts/myriad-set-pro/myriad-set-pro_medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
