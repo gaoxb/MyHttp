@@ -1,0 +1,54 @@
+#nav,
+#nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav li {
+	line-height: 40px;
+	float: left;
+	position: relative;
+	background-color: transparent;
+	color: blue;
+	text-align: center;
+	font-size: 100%;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #000000;
+	display: block;
+}
+
+#nav a:hover {
+	color: red;
+}
+
+* html #nav a {
+	width: 100%
+}
+
+#nav li ul li{  
+    float:none;  
+    background-color:transparent;  
+}  
+
+#nav li ul{  
+    position:absolute;  
+    top:40px;  
+    left:0px;  
+    display:none;/*默认状态下或鼠标离开时隐藏*/  
+    width:90px;  
+}  
+
+#nav li:hover ul {
+	display: block;
+}
+
+#nav ul li {
+	background-color: transparent;
+	font-size: 90%;
+	margin: 5px;
+	padding: 5px;
+}
