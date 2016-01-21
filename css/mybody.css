@@ -1,0 +1,22 @@
+body {
+	background: #343a5e none repeat scroll 0 0;
+	color: #363535;
+	font: 300 18px/24px "Open Sans", sans-serif;
+	min-width: 1400px;
+	position: relative;
+	line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}

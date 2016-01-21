@@ -1,54 +1,155 @@
-#nav,
-#nav ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-#nav li {
-	line-height: 40px;
-	float: left;
+header {
+	display: block;
 	position: relative;
-	background-color: transparent;
-	color: blue;
 	text-align: center;
-	font-size: 100%;
+	z-index: 700;
 }
 
-#nav a {
+header h1 {
+	float: left;
+	font: 300 60px/40px "Open Sans Condensed", sans-serif;
+	z-index: 999;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #287e7d;
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+header h1 a {
+	color: #ffffff;
+	display: block;
+	transition: all 0s ease 0s;
+}
+
+a {
+	color: inherit;
+	outline: medium none;
 	text-decoration: none;
-	color: #000000;
-	display: block;
+	transition: all 0.5s ease 0s;
+	position: relative;
 }
 
-#nav a:hover {
-	color: red;
+ul {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
 }
 
-* html #nav a {
-	width: 100%
+ol,
+ul {
+	list-style: outside none none;
 }
 
-#nav li ul li{  
-    float:none;  
-    background-color:transparent;  
-}  
-
-#nav li ul{  
-    position:absolute;  
-    top:40px;  
-    left:0px;  
-    display:none;/*默认状态下或鼠标离开时隐藏*/  
-    width:90px;  
-}  
-
-#nav li:hover ul {
-	display: block;
+.texture {
+	background: rgba(0, 0, 0, 0) url("../images/main_texture.png") repeat-y scroll center 0;
 }
 
-#nav ul li {
-	background-color: transparent;
-	font-size: 90%;
-	margin: 5px;
-	padding: 5px;
+.navigation {
+	background-color: rgba(0, 0, 0, 0.59);
+	left: 0;
+	padding: 57px 0 66px;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+	z-index: 900;
+}
+
+.container_12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1400px;
+}
+
+.container_12 .grid_12 {
+	width: 1400px;
+}
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	display: inline;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.navigation nav {
+	color: #ffffff;
+	float: right;
+}
+
+.navigation li {
+	display: inline-block;
+	font: 30px/40px "Yanone Kaffeesatz", sans-serif;
+	padding-top: 5px;
+}
+
+.navigation li a:hover::after,
+.navigation li a.current::after {
+	right: 0;
+}
+
+.navigation li a::after {
+	background-color: #ffffff;
+	content: "";
+	height: 1px;
+	left: 0;
+	margin-top: 7px;
+	position: absolute;
+	right: 100%;
+	top: 100%;
+	transition: all 0.5s ease 0s;
+}
+
+.navigation li a:hover,
+.navigation li a.current {
+	color: inherit;
+}
+
+.navigation li a {
+	position: relative;
+}
+
+.navigation li + li {
+	margin-left: 40px;
+}
+
+.navigation li {
+	display: inline-block;
+	font: 30px/40px "Yanone Kaffeesatz", sans-serif;
+	padding-top: 5px;
+}
+
+.navigation li a::after {
+	background-color: #ffffff;
+	content: "";
+	height: 1px;
+	left: 0;
+	margin-top: 7px;
+	position: absolute;
+	right: 100%;
+	top: 100%;
+	transition: all 0.5s ease 0s;
+}
+
+.navigation li a {
+	position: relative;
 }
