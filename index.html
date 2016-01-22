@@ -8,6 +8,29 @@
 		<link rel="stylesheet" href="css/myhtml.css">
 		<link rel="stylesheet" href="css/mybody.css">
 		<link rel="stylesheet" href="css/myheader.css">
+
+		<script>
+			$(window).load(function() {
+				$().UItoTop({
+					easingType: 'easeOutQuart'
+				});
+				$('.gallery .gall_item').touchTouch();
+			});
+			$(document).ready(function() {
+				jQuery('#camera_wrap').camera({
+					loader: false,
+					pagination: true,
+					minHeight: '500',
+					thumbnails: false,
+					height: '44.42708333333333%',
+					caption: true,
+					navigation: false,
+					fx: 'mosaic'
+				});
+				$('.gallery .gall-item').touchTouch();
+			});
+		</script>
+
 		<title>Study</title>
 	</head>
 
@@ -36,6 +59,32 @@
 						</div>
 					</div>
 				</div>
+
+				<!--
+                	作者：13671322615@163.com
+                	时间：2016-01-21
+                	描述：图片页面
+                -->
+				<div id="camera_wrap">
+					<div data-src="img/slide-1.jpg">
+						<div class="caption fadeIn">
+							Your Photographer
+							<span class="bull"></span> Coder
+							<span class="bull"></span> Designer
+						</div>
+					</div>
+					<div data-src="img/slide-2.jpg">
+						<div class="caption fadeIn">
+							Impressive Designs, Suitable for Cool Projects
+						</div>
+					</div>
+					<div data-src="img/slide-3.jpg">
+						<div class="caption fadeIn">
+							Designs that Work for Your Benefits
+						</div>
+					</div>
+				</div>
+
 			</header>
 		</div>
 		<!--
